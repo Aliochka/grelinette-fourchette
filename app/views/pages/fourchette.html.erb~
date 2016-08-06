@@ -1,0 +1,4 @@
+<% provide(:fourchette, "active") %>
+
+<h1>Pages#fourchette</h1>
+<p>Find me in app/views/pages/fourchette.html.erb</p>

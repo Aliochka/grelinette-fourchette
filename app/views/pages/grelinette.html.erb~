@@ -1,0 +1,3 @@
+<% provide(:grelinette, "active") %> 
+<h1>Pages#grelinette</h1>
+<p>Find me in app/views/pages/grelinette.html.erb</p>
