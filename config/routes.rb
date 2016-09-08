@@ -1,9 +1,9 @@
 Rails.application.routes.draw do
 
-  root 'pages#fourchette'
-
+  root 'pages#prez'
+  get 'fourchette' => 'pages#fourchette', as: :fourchette
   get 'grelinette' => 'pages#grelinette', as: :grelinette
-  get 'contact' => 'pages#contact' , as: :contact
+  get 'nous' => 'pages#nous' , as: :nous
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
