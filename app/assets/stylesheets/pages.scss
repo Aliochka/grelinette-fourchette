@@ -11,7 +11,9 @@ html,body{
 	width: 100%;
 	height: 70%;
 	background-image: image-url("logo_clem.jpg");
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .head_adri{
@@ -19,12 +21,21 @@ html,body{
 	width: 100%;
 	height: 70%;
 	background-image: image-url("logo_adrien.jpg");
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
-.container{
+.content_a{
 	display: table;
 	width: 100%;
 	height: 50%;
 	background-color: #aaa;
+}
+
+.content_b{
+	display: table;
+	width: 100%
+	height: 50%;
+	background-color: #eee;
 }
