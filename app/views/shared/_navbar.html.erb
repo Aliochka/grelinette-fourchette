@@ -1,4 +1,4 @@
-<div class="logoContainer text-center"><% if yield(:fourchette)  puts image_tag("logo_clem.jpg") else puts image_tag("logo_adrien.jpg") end  %> </div>
+<div class="logoContainer text-center"><%= image_tag(yield(:fourchette_logo)) %> </div>
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
