@@ -31,6 +31,18 @@ html,body{
 	background-position: center;
 }
 
+div.text-vertical-center{
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.text-vertical-center{
+	margin: 0;
+	padding: 0;
+	font-size: 4.5em;
+}
+
 .content_a{
 	display: table;
 	width: 100%;
