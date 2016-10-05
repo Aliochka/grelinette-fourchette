@@ -1,4 +1,4 @@
-<div class="logo text-center">
+<div class="logoContain text-center">
 	<%= image_tag(yield(:fourchette_logo)) %>
 	<%= image_tag(yield(:grelinette_logo)) %>
  </div>
@@ -8,7 +8,7 @@
   <div class="container-fluid">
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse">
-      <ul class="nav navbar-nav">
+      <ul class="nav pull-center">
 	<li class="<%= yield(:fourchette)%>"><%= link_to "La cantine de Clémentine", fourchette_path %></li>
         <li class="<%= yield(:grelinette)%>"><%= link_to "Les légumes d'Adrien", grelinette_path %></li>
       </ul>
