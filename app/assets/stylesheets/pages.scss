@@ -6,31 +6,18 @@ html,body{
 	height: 100%;
 }
 
-/* a{
-	color: #666;
-	text-decoration: none;
-}
-
- a:hover{
-	color: #444;
-	text-decoration: none;
-}
-
-a:visited{
-	text-decoration: none;
-}
-
-a:active{
-	color: #333;
-	text-decoration: none;
-}
-
-*/
 
 .logoContain{
 	width: 50%;
 	height: 50%;
 }
+
+.navbar .navbar-nav{
+	display: inline-block;
+	float: none;
+	vertical-align: top;
+}
+
 
 
 .head_clem{
