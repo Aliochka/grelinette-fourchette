@@ -7,8 +7,8 @@ html,body{
 }
 
 
-img .logoContain{
-	width: 50%;
+img .logo{
+	width: 10%;
 }
 
 .logoContain{
@@ -71,12 +71,16 @@ div.text-vertical-center{
 }
 
 .img_descr{
-	width: 30%;
-	height: 30%;
+	width: 40%;
+	display: block;
 }
 
 .map{
 	display: table;
 	width: 100%;
 	height: 50%;
+}
+
+.row{
+	margin-top: 3em;
 }
