@@ -7,12 +7,21 @@ html,body{
 }
 
 
+/* logoooooooooooooo */
+
 .logo{
-	width: 10%;
+	width: 15%;
 }
 
 .logoContain{
 	margin: auto;
+}
+
+/* navbaaaaaaar */
+
+.navbar{
+	border: none;
+	margin-bottom: 5px;
 }
 
 .navbar .navbar-nav{
@@ -21,7 +30,16 @@ html,body{
 	vertical-align: top;
 }
 
+.nav-default {
+	background-color: #fff;
+}
 
+.container-fluid{
+	padding-left: 0px;
+	margin-left: 25%;
+}
+
+/* titre de la page */
 
 .head_clem{
 	display: table;
